@@ -15,7 +15,7 @@ D:/Unity/OtherWorldSport_RGP
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52263
+61817
 Successfully changed project path to: D:/Unity/OtherWorldSport_RGP
 D:/Unity/OtherWorldSport_RGP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ D:/Unity/OtherWorldSport_RGP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29328]  Target information:
+Player connection [28920]  Target information:
 
-Player connection [29328]  * "[IP] 192.168.0.47 [Port] 0 [Flags] 2 [Guid] 4190822125 [EditorId] 4190822125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8INNM9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28920]  * "[IP] 192.168.0.47 [Port] 0 [Flags] 2 [Guid] 562224840 [EditorId] 562224840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8INNM9F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28920] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 20.36 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 20.55 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
 Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/OtherWorldSport_RGP/Assets
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015793 seconds.
-- Loaded All Assemblies, in  0.441 seconds
+Registered in 0.015401 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.310 seconds
-Domain Reload Profiling: 746ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 747ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (133ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (154ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (311ms)
+	FinalizeReload (292ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (258ms)
+		SetupLoadedEditorAssemblies (238ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,7 +118,7 @@ Domain Reload Profiling: 746ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.817 seconds
+- Loaded All Assemblies, in  0.829 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -149,47 +149,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.767 seconds
-Domain Reload Profiling: 1581ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (521ms)
-		LoadAssemblies (372ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (385ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (768ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (866ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
+		SetupLoadedEditorAssemblies (672ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 9.85 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 11.64 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4553 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (85.5 KB). Loaded Objects now: 5004.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.535100 ms (FindLiveObjects: 0.419400 ms CreateObjectMapping: 0.130800 ms MarkObjects: 2.814400 ms  DeleteObjects: 0.169300 ms)
+Unloading 4554 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (86.1 KB). Loaded Objects now: 5009.
+Memory consumption went from 154.8 MB to 154.8 MB.
+Total: 4.200700 ms (FindLiveObjects: 0.492000 ms CreateObjectMapping: 0.118100 ms MarkObjects: 3.360700 ms  DeleteObjects: 0.228500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,3 +204,440 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14981.120529 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship12_2.fbx
+  artifactKey: Guid(6a5f7fb374d08b84381ebf1b0bdc837e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship12_2.fbx using Guid(6a5f7fb374d08b84381ebf1b0bdc837e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e2062570af7e05ff9dea077931e785fa') in 0.124215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship14_2.fbx
+  artifactKey: Guid(3ca4cb4b6edb5e24d8df4a8e1d0dfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship14_2.fbx using Guid(3ca4cb4b6edb5e24d8df4a8e1d0dfa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe8d14101cd4f9910506e1cded5b384') in 0.023011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship10_3.fbx
+  artifactKey: Guid(7b42b33a28e0aa643829ebb8a627400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship10_3.fbx using Guid(7b42b33a28e0aa643829ebb8a627400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4134b4dc24ce5006d86d39b486888112') in 0.013861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship10_4.fbx
+  artifactKey: Guid(462c1f9bb65046148ad42f46d9fc1b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship10_4.fbx using Guid(462c1f9bb65046148ad42f46d9fc1b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f62308ba46485932af62a90f1ee23c8') in 0.011977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship15_2.fbx
+  artifactKey: Guid(8eb009472ab553342a799942e051dff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship15_2.fbx using Guid(8eb009472ab553342a799942e051dff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '79f0fc7ca4e5b091952edc642f74b6f1') in 0.020244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship13_1.fbx
+  artifactKey: Guid(a2e2fa6c99732c84095daf23b4096a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship13_1.fbx using Guid(a2e2fa6c99732c84095daf23b4096a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cf42dd6f53948e5dc5e61b68743b5d66') in 0.011478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship14_3.fbx
+  artifactKey: Guid(72299a676fa015449b63fbdc1af0f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Models/Spaceship14_3.fbx using Guid(72299a676fa015449b63fbdc1af0f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8fe8d383e24c43aa514209c2e436ba9') in 0.025451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 23.184049 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship1_3.prefab
+  artifactKey: Guid(0ba271045a4c0144aa4780f421fdba42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship1_3.prefab using Guid(0ba271045a4c0144aa4780f421fdba42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2589d96b77e6813fec3013dcbeee92f6') in 0.002123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_1.prefab
+  artifactKey: Guid(6fede435e5137a943b3e538094c57916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_1.prefab using Guid(6fede435e5137a943b3e538094c57916) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6bd3fa8905c318892e1aa3e7882bf0c') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_1.prefab
+  artifactKey: Guid(7e54e3b2f4d13204285d2704ee69a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_1.prefab using Guid(7e54e3b2f4d13204285d2704ee69a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8f5c946c8746c202ec6bf86db08a89') in 0.002426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship9_2.prefab
+  artifactKey: Guid(890f62b9a20bd804694a554dc9ed54ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship9_2.prefab using Guid(890f62b9a20bd804694a554dc9ed54ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35a2a93c497734d79c45dbbf5ddae048') in 0.001738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_2.prefab
+  artifactKey: Guid(cf72fbe26977ea3419e5ee2cd7649f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_2.prefab using Guid(cf72fbe26977ea3419e5ee2cd7649f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2ec359d2d8d8e39ffe1451bfedebafdf') in 0.001693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_1.prefab
+  artifactKey: Guid(b929e8a13cc97ec4895fe00f6f6a16ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_1.prefab using Guid(b929e8a13cc97ec4895fe00f6f6a16ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '656c5deeaac9dcf12337f6365bb16ff5') in 0.002124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_4.prefab
+  artifactKey: Guid(c15a4dc50a446084da057ba569a714a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_4.prefab using Guid(c15a4dc50a446084da057ba569a714a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'defc4e35a5f652fbb807dc003e69cd0d') in 0.001950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship6_3.prefab
+  artifactKey: Guid(f14182087f5e2ab489c964c90a50d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship6_3.prefab using Guid(f14182087f5e2ab489c964c90a50d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '761aede06be181bfc29a5936d3567a54') in 0.001793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_2.prefab
+  artifactKey: Guid(699b4dd846e338d44b315a351d0e3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_2.prefab using Guid(699b4dd846e338d44b315a351d0e3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef00ae8321e95653b34de263741b1c6f') in 0.002037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_3.prefab
+  artifactKey: Guid(27fb348f2aaff0f42b1dbe8cf8fa1644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_3.prefab using Guid(27fb348f2aaff0f42b1dbe8cf8fa1644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ece338fc354c6dd96a130b309ed9a438') in 0.001981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_3.prefab
+  artifactKey: Guid(158ea225d7a2bc3418209786d2dcf932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship4_3.prefab using Guid(158ea225d7a2bc3418209786d2dcf932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23d365cad38cf9d22522c099b3615a44') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_2.prefab
+  artifactKey: Guid(04fc2f6fb6fbd404883ef941bc513f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_2.prefab using Guid(04fc2f6fb6fbd404883ef941bc513f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '884aef5292b373e494900cd5b6f32932') in 0.001728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.685480 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_4.prefab
+  artifactKey: Guid(74eea32dcdc51e74eb86071b9c6823c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_4.prefab using Guid(74eea32dcdc51e74eb86071b9c6823c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35a627f19424f6e0c1f3280140c18e38') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_1.prefab
+  artifactKey: Guid(34c1bc4c24cf6eb4a9261986e7aa7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_1.prefab using Guid(34c1bc4c24cf6eb4a9261986e7aa7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d096bbff8df3ebec3d46434094cfe0c') in 0.001695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_2.prefab
+  artifactKey: Guid(045c7e9c4089f384c8825d4707b1f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_2.prefab using Guid(045c7e9c4089f384c8825d4707b1f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ccb39c3f54f68995b734feb02edc2fc') in 0.001791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_4.prefab
+  artifactKey: Guid(4e1e1f4c6787a8f4db7623712a0185ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_4.prefab using Guid(4e1e1f4c6787a8f4db7623712a0185ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd44907a818afcbcaf5beb6942fa01678') in 0.001877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.623968 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship13_4.prefab
+  artifactKey: Guid(5fc589b85dc14b341971090508825d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship13_4.prefab using Guid(5fc589b85dc14b341971090508825d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c948691ffd000ef4837faeb13a736920') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_2.prefab
+  artifactKey: Guid(af16f444b6a3360418c5419082839f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_2.prefab using Guid(af16f444b6a3360418c5419082839f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '638bf1ef0565fce70bf62704b9a131fd') in 0.001929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_4.prefab
+  artifactKey: Guid(c956467b7c1926b4297d5bc2715990c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_4.prefab using Guid(c956467b7c1926b4297d5bc2715990c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbe216cf4d63c84763fd99a217077222') in 0.002078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.395216 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_2 1.prefab
+  artifactKey: Guid(290c4affb451abe41a14510c2c59a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_2 1.prefab using Guid(290c4affb451abe41a14510c2c59a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82dbd1f86eecc678c3dd3ce166ddf5a7') in 0.002463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship7_2 1.prefab
+  artifactKey: Guid(92b1f7281e0242f4788b4f56976533c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship7_2 1.prefab using Guid(92b1f7281e0242f4788b4f56976533c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '728326ac913db32744cc90e21326e04f') in 0.002172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_4 1.prefab
+  artifactKey: Guid(951f1ab1d43e8ed4298e9b667796ca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship5_4 1.prefab using Guid(951f1ab1d43e8ed4298e9b667796ca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '196c7a9e4b6a1b9b87af9fda3f545eab') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.593857 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_1 1.prefab
+  artifactKey: Guid(69a669da7166309499f37c9142cc300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_1 1.prefab using Guid(69a669da7166309499f37c9142cc300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '442acb6e6b4e827c9cc764a784241208') in 0.002351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_2 1.prefab
+  artifactKey: Guid(1e2a78a34ee19a3499c91c42f8c88364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship8_2 1.prefab using Guid(1e2a78a34ee19a3499c91c42f8c88364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c32f7259babaf9c85828ff380307cc02') in 0.002192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.100413 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship9_3 1.prefab
+  artifactKey: Guid(89077b08f33465441ab5b39c3931f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship9_3 1.prefab using Guid(89077b08f33465441ab5b39c3931f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fdc5981527d4ca0260434992df2194d1') in 0.001751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_1 1.prefab
+  artifactKey: Guid(d872b71976733a74ba68298a3375bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship10_1 1.prefab using Guid(d872b71976733a74ba68298a3375bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9dea38984a519a552141bbb6be8ed79f') in 0.001746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.027285 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship11_1 1.prefab
+  artifactKey: Guid(a5508aba3a9af164f96a1b03a7b0a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship11_1 1.prefab using Guid(a5508aba3a9af164f96a1b03a7b0a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff89207b42b0bbe58513f9c678edf872') in 0.001960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship11_2 1.prefab
+  artifactKey: Guid(31f1737618297724ba06f3ca0a3d8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship11_2 1.prefab using Guid(31f1737618297724ba06f3ca0a3d8b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af17159d756f37f78184778fdfce4d45') in 0.001915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.280072 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_3 1.prefab
+  artifactKey: Guid(fe9725a73fdd7474185813abd364b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship12_3 1.prefab using Guid(fe9725a73fdd7474185813abd364b095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7c14aec42a270176262bd7692bac505') in 0.002316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.409916 seconds.
+  path: Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_3 1.prefab
+  artifactKey: Guid(f7513f16dca92034382253ea8b94735f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/LowpolySpaceshipPack/Prefabs/Spaceship15_3 1.prefab using Guid(f7513f16dca92034382253ea8b94735f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2338d564f6f3ef4e4f6c09e7a8eace5') in 0.002116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.362460 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox041.png
+  artifactKey: Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox041.png using Guid(fcd92899f9fb6a0468bcb56a38dd4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8970fe6cae0d86342433c6d3fdb150d') in 0.035183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox045.png
+  artifactKey: Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox045.png using Guid(bc8f9c3d8de49024bab7c4052cbd81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3b1269d52bf58c8a08fc87a774bc80e') in 0.017861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox044.png
+  artifactKey: Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox044.png using Guid(d4d865ffc05192e4d8a5e8a52a02eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a403a34301de743f3543db2de2a480fc') in 0.017671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox046.png
+  artifactKey: Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox046.png using Guid(16ae4d25f079e384dacef7c5eb98a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1676450347f2e4a82ed10a715cc49b86') in 0.014462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox042.png
+  artifactKey: Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04/StarSkybox042.png using Guid(31ec1046449e0724ab9f74f07c8d0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8b952b07e14a30b7accb9a5ede8a49b') in 0.016110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.033355 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named1.png
+  artifactKey: Guid(1b5491d7d8c0c684a8d4827a8473b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named1.png using Guid(1b5491d7d8c0c684a8d4827a8473b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fdbd8ae885ec3b6766ae3b5a9647da1c') in 0.021413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named3.png
+  artifactKey: Guid(a2b03e4b2c0f0ed4b9646579fbdc3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named3.png using Guid(a2b03e4b2c0f0ed4b9646579fbdc3f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd42c91250d131631e2f6cef2a29cf43') in 0.018063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named5.png
+  artifactKey: Guid(5a335a020961242499ce58f2b87ea0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named5.png using Guid(5a335a020961242499ce58f2b87ea0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd84b06b8f94b22f5b265a8be9b143dd4') in 0.014894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named4.png
+  artifactKey: Guid(f479446fdaba63147be06b118936fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named4.png using Guid(f479446fdaba63147be06b118936fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0772c9b5e0862b7ebaddde7867769fd1') in 0.017039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

@@ -17,7 +17,7 @@ public class ButtonText : MonoBehaviour
     {
         if (m_gameManager.m_gameStarted)
         {
-            m_text.text = "Press button for bumper control";
+            m_text.text = "Press button for gravity control";
         }
         else
         {

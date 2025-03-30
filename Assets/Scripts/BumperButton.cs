@@ -8,10 +8,15 @@ public class BumperButton : MonoBehaviour
     GameManager m_gameManager;
     TurnManager m_turnManager;
 
+    private Vector3 m_forceDirection;
+    bool m_gravity;
+
     private void Awake()
     {
         m_gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         m_turnManager = GameObject.Find("CountPins").GetComponent<TurnManager>();
+
+        m_gravity = true;
     }
 
     public void ButtonPressed()
@@ -26,7 +31,7 @@ public class BumperButton : MonoBehaviour
         }
         else
         {
-            for (int i = 0; i < m_bumpers.Length; i++)
+            /*for (int i = 0; i < m_bumpers.Length; i++)
             {
                 if (m_bumpers[i].activeInHierarchy)
                 {
@@ -36,6 +41,36 @@ public class BumperButton : MonoBehaviour
                 {
                     m_bumpers[i].SetActive(true);
                 }
+            }*/
+
+
+            if (m_gravity)
+            {
+                GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+
+                foreach (GameObject ball in balls)
+                {
+                    Debug.Log("grav change");
+                    ConstantForce constantForce = ball.GetComponent<ConstantForce>();
+
+                    constantForce.force = new Vector3(0, 2000, 0);
+                }
+
+                m_gravity = false;
+            }
+            else
+            {
+                GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+
+                foreach (GameObject ball in balls)
+                {
+                    Debug.Log("grav change");
+                    ConstantForce constantForce = ball.GetComponent<ConstantForce>();
+
+                    constantForce.force = new Vector3(0, 0, 0);
+                }
+
+                m_gravity = true;
             }
         }
     }

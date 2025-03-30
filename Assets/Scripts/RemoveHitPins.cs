@@ -9,10 +9,8 @@ public class RemoveHitPins : MonoBehaviour
     PinCount m_pinCount;
 
     public bool m_bowling = true;
-    // TODO: NEED SOMETHING TO LET THIS KNOW TO GET ARRAY OF PINS ON FIRST ROLL< NEED BOOL SOMEWHERE
-    // TODO: KEEP TRACK OF WHAT BOWL IT IS SO SCORE CAN BE CALCULATED CORRECTLY / HAVE IT REURN THE NUMBER OF PINS HIT NOT LEFT
 
-    public GameObject[] m_activePins; // TODO: could turn to a list once instantiating pins is implemented
+    public GameObject[] m_activePins; 
   
     private void Update()
     {
